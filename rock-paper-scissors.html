@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock-Paper-Scissors</title>
+    <link rel="stylesheet" href="rock-paper-scissors.css" />
+  </head>
+  <body>
+    <script src="rock-paper-scissors.js"></script>
+    <div class="container">
+      <p class="title">
+        Hi Welcome! To the rock, paper and scissors game. To play choose your
+        pick below.
+      </p>
+      <div>
+        <button class="move-button" onclick="play('rock')">
+          <img class="emojis" src="rock.jpg" alt="" />
+        </button>
+        <button class="move-button" onclick="play('paper')">
+          <img class="emojis" src="paper.jpg" alt="" />
+        </button>
+        <button class="move-button" onclick="play('scissors')">
+          <img class="emojis" src="scissors.jpg" alt="" />
+        </button>
+      </div>
+      <div>
+        <p class="js-result text"></p>
+        <p class="js-moves text"></p>
+        <p class="js-score text"></p>
+      </div>
+      <div>
+        <button class="reset" onclick="reset()">Reset Button</button>
+        <button class="auto-play" onclick="autoPlay()">Auto Play</button>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,44 @@
+body {
+    margin-top: 50px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .title,
+  .text,
+  .reset {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .reset, .auto-play {
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 2px;
+    background-color: rgb(192, 186, 186);
+    color: white;
+    border-color: gray;
+    cursor: pointer;
+    padding: 10px 20px;
+  }
+  .emojis {
+    height: 50px;
+  }
+  .move-button {
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    margin-right: 20px;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+.move-icon {
+  width: 50px;
+  background-color: transparent;
+}
